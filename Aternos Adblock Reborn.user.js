@@ -5,6 +5,8 @@
 // @author       crusty
 // @match        https://aternos.org/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=aternos.org
+// @downloadURL  https://github.com/crustySenpai/Aternos-Adblock-Reborn/raw/main/Aternos%20Adblock%20Reborn.user.js
+// @updateURL    https://github.com/crustySenpai/Aternos-Adblock-Reborn/raw/main/Aternos%20Adblock%20Reborn.user.js
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
 // @require      https://gist.githubusercontent.com/BrockA/2625891/raw/9c97aa67ff9c5d56be34a55ad6c18a314e5eb548/waitForKeyElements.js
 // @grant        none
