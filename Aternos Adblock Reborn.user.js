@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Aternos Adblock Reborn
-// @version      0.1
+// @version      0.2
 // @description  Simply tries to remove all Ads from named Site!
 // @author       crusty
 // @match        https://aternos.org/*
