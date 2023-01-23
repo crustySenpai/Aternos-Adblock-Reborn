@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Aternos Adblock Reborn
-// @version      0.2
+// @version      0.3
 // @description  Simply tries to remove all Ads from named Site!
 // @author       crusty
 // @match        https://aternos.org/*
@@ -15,21 +15,17 @@
 (function () {
   ("use strict");
   $("div[id$='adngin-Leaderboard_1-0']").remove();
-  $("div[id$='adngin-Leaderboard_1-0']").css("display", "none");
   $("div[id$='adngin-Leaderboard_2-0']").remove();
-  $("div[id$='adngin-Leaderboard_2-0']").css("display", "none");
   $("div[id$='adngin-Options_page-0']").remove();
-  $("div[id$='adngin-Options_page-0']").css("display", "none");
   $("div[id$='AVplayer0']").remove();
-  $("div[id$='AVplayer0']").css("display", "none");
   $("div[id$='av-container']").remove();
-  $("div[id$='av-container']").css("display", "none");
+  $("div[class$='vm-footer']").remove();
+  $("div[class$='ad_unit']").remove();
   $(".header-exaroton-link").remove();
   $(".header-link-exaroton").remove();
   $(".ad-label-wrapper").remove();
   $(".sidebar").remove();
   $(".server-tutorials").remove();
-  $(".responsive-leaderboard").remove();
   $(".responsive-leaderboard").remove();
   waitForKeyElements("[id$='adngin-Leaderboard_Adhesion-0-adhesive']", _0xef80x1);
   waitForKeyElements("[id$='AVplayer0']", _0xef80x1);
